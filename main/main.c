@@ -46,8 +46,8 @@ void app_main()
     ESP_LOGI(TAG, "Start of main function");
 
     // Workshop Part 1: Simple blink on-board LED 
-    // onboard_led_init();
-    // flash_led();
+    onboard_led_init();
+    flash_led();
     // Task: can you make the LED blink faster? or change the LED color?
     
 
@@ -88,16 +88,16 @@ void app_main()
 
     // Workshop Part 5: Add Sensor
         // Task: Fix the sensor reading (why is it inconsistent? Hint: device.c)
-    wifi_init();
-    rainMaker_init();
-    onboard_led_init();
-    rm_add_onboard_led();
-    ext_led_init();
-    rm_add_ext_led();
-    sensor_init();
-    rm_add_sensor();
-    rainMaker_start();
-    wifi_start();
+    // wifi_init();
+    // rainMaker_init();
+    // onboard_led_init();
+    // rm_add_onboard_led();
+    // ext_led_init();
+    // rm_add_ext_led();
+    // sensor_init();
+    // rm_add_sensor();
+    // rainMaker_start();
+    // wifi_start();
 
     // to test sensor reading, comment everything above and just run this
     // sensor_init();
